@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 import React from "react";
 import "./App.css";
-import LoginForm from "./Components/LoginForm/LoginForm";
-import OnBoardingPage from "./Pages/OnBoardingPage/OnBoardingPage";
+import AnimatedRoutes from "./Components/AnimatedRoutes/AnimatedRoutes";
+
+
 
 function App() {
   // const { testnet, mainnet } = require("bitcore-lib/lib/networks");
@@ -10,16 +11,14 @@ function App() {
   // const sendBitcoin = require("./send.bitcoin");
 
   // console.log(createWallet(mainnet));
+  
+  
+
   return (
+    
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LoginForm />} />
-          <Route path="/on-boarding" element={<OnBoardingPage />} />
-          <Route path="/menu" element={<OnBoardingPage />} />
-          <Route path="/scan-send" element={<OnBoardingPage />} />
-          <Route path="/scan-receive" element={<OnBoardingPage />} />
-        </Routes>
+        <AnimatedRoutes />
       </BrowserRouter>
     </div>
   );
