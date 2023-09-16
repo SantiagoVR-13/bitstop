@@ -1,10 +1,15 @@
 @use "../../Styles/mixins" as *;
 @use "../../Styles/typography" as *;
 
-
-.Header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem;
+.Tab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #111111;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  &__icon-container {
+    background-color: #111111;
+  }
 }
