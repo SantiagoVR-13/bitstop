@@ -1,9 +1,12 @@
+import Header from "../Header/Header";
 import "./Onboarding.scss";
 
 function Onboarding() {
   return (
     <>
-      <div className="Onboarding"></div>
+      <div className="Onboarding">
+        <Header />
+      </div>
     </>
   );
 }

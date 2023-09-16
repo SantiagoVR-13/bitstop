@@ -5,17 +5,19 @@ import LoginForm from "./Components/LoginForm/LoginForm";
 import OnBoardingPage from "./Pages/OnBoardingPage/OnBoardingPage";
 
 function App() {
-  const { testnet, mainnet } = require("bitcore-lib/lib/networks");
-  const { createWallet } = require("./wallet.bitcoin");
-  const sendBitcoin = require("./send.bitcoin");
+  // const { testnet, mainnet } = require("bitcore-lib/lib/networks");
+  // const { createWallet } = require("./wallet.bitcoin");
+  // const sendBitcoin = require("./send.bitcoin");
 
-  console.log(createWallet(mainnet));
+  // console.log(createWallet(mainnet));
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LoginForm />} />
           <Route path="/on-boarding" element={<OnBoardingPage />} />
+          <Route path="/scan-send" element={<OnBoardingPage />} />
+          <Route path="/scan-receive" element={<OnBoardingPage />} />
         </Routes>
       </BrowserRouter>
     </div>

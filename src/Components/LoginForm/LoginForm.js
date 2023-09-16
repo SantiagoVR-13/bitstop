@@ -5,20 +5,20 @@ import "./LoginForm.scss";
 
 function LoginForm() {
   const [pin, setPin] = useState("");
-  const { PrivateKey, PrivateKey } = require("bitcore-lib");
+  // const { PrivateKey, PrivateKey } = require("bitcore-lib");
 
-  const { mainnet, testnet } = require("bitcore-lib/lib/networks");
-  const Mnemonic = require("bitcore-mnemonic");
+  // const { mainnet, testnet } = require("bitcore-lib/lib/networks");
+  // const Mnemonic = require("bitcore-mnemonic");
 
-  const createWallet = (network = mainnet) => {
-    var privateKey = new PrivateKey();
-    var address = privateKey.toAddress(network);
+  // const createWallet = (network = mainnet) => {
+  //   var privateKey = new PrivateKey();
+  //   var address = privateKey.toAddress(network);
 
-    return {
-      privateKey: privateKey.toString(),
-      address: address.toString(),
-    };
-  };
+  //   return {
+  //     privateKey: privateKey.toString(),
+  //     address: address.toString(),
+  //   };
+  // };
 
   const handleDigitClick = (digit) => {
     if (pin.length < 4) {
