@@ -16,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginForm />} />
           <Route path="/on-boarding" element={<OnBoardingPage />} />
+          <Route path="/menu" element={<OnBoardingPage />} />
           <Route path="/scan-send" element={<OnBoardingPage />} />
           <Route path="/scan-receive" element={<OnBoardingPage />} />
         </Routes>
