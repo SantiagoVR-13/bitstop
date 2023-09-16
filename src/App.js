@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+<<<<<<< HEAD
         <Routes>
           <Route path="/" element={<Signup />} />
           <Route path="/sign-up" element={<Signup />} />
@@ -25,10 +26,19 @@ function App() {
           <Route path="/intro" element={<Onboarding />} />
           {/* <Route path="/scan-send" element={<ScanSend />} /> */}
           {/* <Route path="/scan-receive" element={<OnBoardingPage />} /> */}
+=======
+        <Routes>HI
+          <Route path="/" element={<LoginForm />} />
+          <Route path="/on-boarding" element={<OnBoardingPage />} />
+          <Route path="/menu" element={<OnBoardingPage />} />
+          <Route path="/scan-send" element={<OnBoardingPage />} />
+          <Route path="/scan-receive" element={<OnBoardingPage />} />
+>>>>>>> develop
         </Routes>
       </BrowserRouter>
     </div>
   );
 }
+// HI
 
 export default App;
