@@ -8,10 +8,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Roboto', Arial, sans-serif; 
     &__title{
         font-size: 3rem;
-        color: white;
+        color: black;
     }
 
     &__button{
@@ -19,9 +19,9 @@
         font-size: 30px;
         padding: 10px 5px;
         text-decoration: none;
-        border: none;
+        border: gold;
         background-color: none;
-        color: whitesmoke;
+        color: black;
         font-weight: 300;
         font-size: 12px;
         width: 6.3rem;
