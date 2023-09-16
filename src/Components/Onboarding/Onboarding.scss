@@ -1,2 +1,101 @@
 @use "../../Styles/mixins" as *;
 @use "../../Styles/typography" as *;
+
+.onboarding {
+  font-family: 'Roboto', Arial, sans-serif; 
+  background-color: #111;
+  color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  text-align: center;
+  width: 90%;
+  max-width: 393px;
+  margin: 0 auto;
+
+  .onboarding__question-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .onboarding__question-div {
+    margin: 1rem 0;
+    padding: 0.94rem;
+    border: 1px solid gold;
+    border-radius: 5px;
+    text-align: center;
+
+    .onboarding__title {
+      font-size: 24px;
+      font-weight: 700; 
+      margin-bottom: 1rem; 
+      color: gold;
+    }
+
+    .onboarding__text {
+      font-size: 18px;
+      line-height: 2.0;
+    }
+  }
+
+  .onboarding-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    .back-button {
+      background-color: blue; 
+      color: black;
+      border: none;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      margin-right: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: blue; 
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+
+    .next-button {
+      background-color: blue;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: blue; 
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.skip-button{
+        display: inline-block;
+        padding: 10px 5px;
+        text-decoration: none;
+        border: none;
+        background-color: none;
+        color: whitesmoke;
+        font-weight: 300;
+        font-size: 12px;
+        width: 6.3rem;
+        margin: 2rem;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
