@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
+        <Routes>HI
           <Route path="/" element={<LoginForm />} />
           <Route path="/on-boarding" element={<OnBoardingPage />} />
           <Route path="/menu" element={<OnBoardingPage />} />
@@ -24,5 +24,6 @@ function App() {
     </div>
   );
 }
+// HI
 
 export default App;
