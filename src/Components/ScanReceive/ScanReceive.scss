@@ -1,2 +1,8 @@
 @use "../../Styles/mixins" as *;
 @use "../../Styles/typography" as *;
+
+.ScanReceive {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
