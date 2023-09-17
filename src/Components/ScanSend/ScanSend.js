@@ -3,7 +3,9 @@ import "./ScanSend.scss";
 function ScanSend() {
   return (
     <>
-      <div className="ScanSend"></div>
+      <div className="ScanSend">
+        <p>Jango</p>
+      </div>
     </>
   );
 }

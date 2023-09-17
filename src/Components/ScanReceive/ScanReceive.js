@@ -3,7 +3,9 @@ import "./ScanReceive.scss";
 function ScanReceive() {
   return (
     <>
-      <div className="ScanReceive"></div>
+      <div className="ScanReceive">
+      <p>Hi</p>
+      </div>
     </>
   );
 }

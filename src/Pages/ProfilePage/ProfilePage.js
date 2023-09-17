@@ -1,5 +1,6 @@
 import "./ProfilePage.scss";
 
+
 function ProfilePage() {
   return (
     <>
