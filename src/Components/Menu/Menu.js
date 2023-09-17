@@ -3,7 +3,9 @@ import "./Menu.scss";
 function Menu() {
   return (
     <>
-      <div className="Menu"></div>
+      <div className="Menu">
+        <p>Hey</p>
+      </div>
     </>
   );
 }

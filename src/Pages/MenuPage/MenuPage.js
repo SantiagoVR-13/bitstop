@@ -1,19 +1,19 @@
-// import "./OnBoardingPage.scss";
+// import "./Menu.scss";
 import Header from "../../Components/Header/Header";
+import Part from "../../Components/Menu/Menu"
 import { motion } from "framer-motion";
-function OnBoardingPage() {
+
+function Menu() {
   return (
     <motion.div 
     intial={{ height:0 }}
     animate={{ height: "100%" }}
-    exit={{ y: window.innerHeight, transition: { duration: 0} }}
+    exit={{ y: window.innerHeight, transition: { duration: 1} }}
     >
       <Header />
-      <div className="OnBoardingPage">
-        
-      </div>
+      <Part />
     </motion.div>
   );
 }
 
-export default OnBoardingPage;
+export default Menu;
